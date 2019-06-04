@@ -1,0 +1,31 @@
+h2{
+    text-align: center;
+}
+
+.myTile > img {
+display: none;
+}
+
+.tileButton{
+    height: 120px;
+    background-image: url(https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Fweknowyourdreams.com%2Fimages%2Fdog%2Fdog-12.jpg&f=1);
+    border-radius: 1px;
+    background-repeat: no-repeat;
+    margin-left: 40px;
+    background-size: 100%;
+    padding: 10px;
+    
+}
+.disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+#reset{
+  margin:auto;
+  display:block;
+}
+.matched {
+      pointer-events: none;
+  cursor: default;
+  opacity: 0.6;
+}
